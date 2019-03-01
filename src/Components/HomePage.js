@@ -4,27 +4,50 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const styles = theme => ({
-
+    root: {
+        backgroundColor: 'rgb(35, 35, 35)'
+    },
+    main: {
+        marginTop: 0,
+        minHeight: 740,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center'
+    },
+    appBar: {
+        backgroundColor: "transparent !important",
+        boxShadow: "none"
+    },
+    icon: {
+        color: 'white'
+    }
 });
+
+const style = {
+    backgroundImage: 'url("/redjay-light.png")'
+}
 
 function HomePage(props) {
 
     const { classes } = props;
 
     return (
-        <Grid container>
-            <Grid item xs={12}>
-                <AppBar position="static">
-                    <Toolbar>
-                        <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-                            <MenuIcon />
-                        </IconButton>
-                    </Toolbar>
-                </AppBar>
+        <React.Fragment>
+            <Grid container className={classes.root}>
+                <Grid item xs={12} style={style} className={classes.main}>
+                    <AppBar className={classes.appBar}>
+                        <Toolbar>
+                            <IconButton aria-label="Menu" className={classes.icon}>
+                                <MenuIcon />
+                            </IconButton>
+                        </Toolbar>
+                    </AppBar>
+                </Grid>
             </Grid>
-        </Grid>
+        </React.Fragment>
     )
 };
 

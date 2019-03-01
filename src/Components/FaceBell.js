@@ -12,7 +12,7 @@ function FaceBell(props) {
 
     return (
         <div>
-            
+            <p>Face Bell</p>
         </div>
     )
 };

@@ -6,7 +6,7 @@ const styles = theme => ({
 
 });
 
-function AboutMe(props) {
+function ContactMe(props) {
     
     const { classes } = props;
 
@@ -17,8 +17,8 @@ function AboutMe(props) {
     )
 };
 
-AboutMe.propTypes = {
+ContactMe.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(AboutMe);
+export default withStyles(styles)(ContactMe);

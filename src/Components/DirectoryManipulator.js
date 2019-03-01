@@ -12,7 +12,7 @@ function DirectoryManipulator(props) {
 
     return (
         <div>
-            
+            <p>Directory Manipulator</p>
         </div>
     )
 };

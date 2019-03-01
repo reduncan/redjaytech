@@ -12,7 +12,7 @@ function YelpClone(props) {
 
     return (
         <div>
-            
+            <p>Yelp Clone</p>
         </div>
     )
 };
