@@ -15,7 +15,7 @@ const styles = theme => ({
     main: {
         marginTop: 0,
         height: "100%",
-        backgroundImage: 'url("/redjay-light.png")',
+        backgroundImage: 'url("./redjay-light.png")',
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -49,7 +49,7 @@ const styles = theme => ({
     },
     whatWeDo: {
         height: 400,
-        backgroundImage: 'url("/redjay-grayscale.png")',
+        backgroundImage: 'url("./redjay-grayscale.png")',
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

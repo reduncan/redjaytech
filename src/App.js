@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import HomePage from './Components/HomePage';
 import AboutMe from './Components/AboutMe';
@@ -18,7 +18,7 @@ const App = () => (
       <Route path='/directory-manipulator' component={DirectoryManipulator} />
       <Route path='/yelp-clone' component={YelpClone} />
       <Route path='/facebell' component={FaceBell} />
-      </React.Fragment>
+    </React.Fragment>
   </BrowserRouter>
 );
 
