@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "c9f04005c79510ea1790",
-    "url": "/redjaytech/static/js/main.c9f04005.chunk.js"
+    "revision": "32823a8575372e8661d4",
+    "url": "/redjaytech/static/js/main.32823a85.chunk.js"
   },
   {
     "revision": "4864822208058d35a32c",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/redjaytech/static/js/2.2c75c503.chunk.js"
   },
   {
-    "revision": "0616f73ef0911b765692d631b1d105a0",
+    "revision": "7f42d2695c87386efda9fb8be4b44adb",
     "url": "/redjaytech/index.html"
   }
 ];
