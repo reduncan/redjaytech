@@ -1,11 +1,11 @@
 {
-  "main.js": "/redjaytech/static/js/main.81e24707.chunk.js",
-  "main.js.map": "/redjaytech/static/js/main.81e24707.chunk.js.map",
-  "runtime~main.js": "/redjaytech/static/js/runtime~main.48648222.js",
-  "runtime~main.js.map": "/redjaytech/static/js/runtime~main.48648222.js.map",
-  "static/js/2.dc3fd475.chunk.js": "/redjaytech/static/js/2.dc3fd475.chunk.js",
-  "static/js/2.dc3fd475.chunk.js.map": "/redjaytech/static/js/2.dc3fd475.chunk.js.map",
-  "index.html": "/redjaytech/index.html",
-  "precache-manifest.74ebb93cab878502d9bb473562b19972.js": "/redjaytech/precache-manifest.74ebb93cab878502d9bb473562b19972.js",
-  "service-worker.js": "/redjaytech/service-worker.js"
+  "main.js": "/reduncan/redjaytech/static/js/main.428adf65.chunk.js",
+  "main.js.map": "/reduncan/redjaytech/static/js/main.428adf65.chunk.js.map",
+  "runtime~main.js": "/reduncan/redjaytech/static/js/runtime~main.b4c3d117.js",
+  "runtime~main.js.map": "/reduncan/redjaytech/static/js/runtime~main.b4c3d117.js.map",
+  "static/js/2.dc3fd475.chunk.js": "/reduncan/redjaytech/static/js/2.dc3fd475.chunk.js",
+  "static/js/2.dc3fd475.chunk.js.map": "/reduncan/redjaytech/static/js/2.dc3fd475.chunk.js.map",
+  "index.html": "/reduncan/redjaytech/index.html",
+  "precache-manifest.ca3368fb606db0d85ccc74d235e012b2.js": "/reduncan/redjaytech/precache-manifest.ca3368fb606db0d85ccc74d235e012b2.js",
+  "service-worker.js": "/reduncan/redjaytech/service-worker.js"
 }

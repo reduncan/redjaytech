@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/redjaytech/precache-manifest.74ebb93cab878502d9bb473562b19972.js"
+  "/reduncan/redjaytech/precache-manifest.ca3368fb606db0d85ccc74d235e012b2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/redjaytech/index.html", {
+workbox.routing.registerNavigationRoute("/reduncan/redjaytech/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
