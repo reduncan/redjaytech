@@ -6,19 +6,19 @@ const styles = theme => ({
 
 });
 
-function AboutMe(props) {
+function OurTeam(props) {
     
     const { classes } = props;
 
     return (
         <div>
-            <p>About Me</p>
+            <p>Our Team</p>
         </div>
     )
 };
 
-AboutMe.propTypes = {
+OurTeam.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(AboutMe);
+export default withStyles(styles)(OurTeam);
