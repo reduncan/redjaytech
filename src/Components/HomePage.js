@@ -19,7 +19,7 @@ const styles = theme => ({
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover"
+        backgroundSize: "contain"
     },
     appBar: {
         backgroundColor: "transparent !important",
@@ -34,7 +34,8 @@ const styles = theme => ({
         background: 'rgb(255, 255, 255)',
         fontFamily: 'Reem Kufi, sans-serif',
         alignItems: 'center',
-        fontSize: 32
+        fontSize: 32,
+        height: 300
     },
     sectionHeaderLeft: {
         textAlign: 'left',
@@ -46,7 +47,8 @@ const styles = theme => ({
     },
     sectionContent: {
         color: 'rgb(35, 35, 35)',
-        background: 'rgb(255, 255, 255)'
+        background: 'rgb(255, 255, 255)',
+        height: 300
     },
     sectionText: {
         textAlign: 'center',
@@ -54,12 +56,22 @@ const styles = theme => ({
         fontFamily: 'Reem Kufi, sans-serif'
     },
     whatWeDo: {
-        height: 400,
+        height: 650,
+        backgroundColor: 'rgb(74, 73, 74)',
         backgroundImage: 'url("./redjay-grayscale1.png")',
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover"
+        backgroundSize: "contain"
+    },
+    ourExperience: {
+        height: 650,
+        backgroundColor: 'rgb(74, 73, 74)',
+        backgroundImage: 'url("./redjay-light.png")',
+        backgroundAttachment: "fixed",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "contain"
     }
 });
 
@@ -97,7 +109,7 @@ function HomePage(props) {
                     <h2 className={classes.sectionHeaderLeft}>WHAT WE DO</h2>
                 </Grid>
             </Grid>
-            <div className={classes.whatWeDo}></div>
+            <div className={classes.ourExperience}></div>
             <Grid container>
                 <Grid item xs={12} sm={12} md={6} className={classes.sectionTitle}>
                     <h2 className={classes.sectionHeaderRight}>OUR EXPERIENCE</h2>
